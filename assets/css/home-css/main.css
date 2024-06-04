@@ -1,0 +1,153 @@
+.sessao-como-usar{
+    background: rgb(244,245,248);
+    padding:2rem 0;
+}
+.subtitle{
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-subtitle{
+    font-family: "Open Sans", sans-serif;
+}
+.exemplos-como-usar-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-como-usar-item{
+    
+}
+.como-usar-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:290px;
+}
+.como-usar-item img {
+width:330px;
+height:100;
+object-fit: contain;
+}
+
+.como-usar-item h3{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: 800;
+}
+.como-usar-item p{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    line-height: 1.6rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin-top: .7rem;
+    font-size: .8rem;
+}
+@media screen and (min-width: 800px){
+    .sessao-como-usar{
+        padding:2rem 0;
+    }
+    .subtitle{
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    .text-subtitle{
+        font-family: "Open Sans", sans-serif;
+    }
+    .exemplos-como-usar-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-como-usar-item{
+        
+    }
+    .como-usar-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:590px;
+    }
+    .como-usar-item.first-item{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .como-usar-item img {
+    width:310px;
+    height:100;
+    object-fit: contain;
+    }
+    
+    .como-usar-item h3{
+        font-family: "Open Sans", sans-serif;
+        text-align: left;
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .como-usar-item p{
+        font-family: "Open Sans", sans-serif;
+        text-align: left;
+        line-height: 1.6rem;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        margin-top: .4rem;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1300px){
+    .sessao-como-usar{
+        padding:2rem 0;
+    }
+    .subtitle{
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    .text-subtitle{
+        font-family: "Open Sans", sans-serif;
+    }
+    .exemplos-como-usar-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-como-usar-item{
+        
+    }
+    .como-usar-item{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width:850px;
+    }
+    .como-usar-item.first-item{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .como-usar-item img {
+    width:440px;
+    height:200;
+    object-fit: contain;
+    }
+    
+    .como-usar-item h3{
+        font-family: "Open Sans", sans-serif;
+        text-align: left;
+        font-weight: 700;
+        font-size: 22px;
+    }
+    .como-usar-item p{
+        font-family: "Open Sans", sans-serif;
+        text-align: left;
+        line-height: 1.6rem;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        margin-top: .4rem;
+        font-size: 14px;
+    }
+}
