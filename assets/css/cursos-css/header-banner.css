@@ -37,8 +37,8 @@ width:300px;
 }
 .text-banner-wrapper  a{
     font-family: var(--font-secondary);
-    font-size: 10px;
-    padding:14px 5px;
+    font-size: 9px;
+    padding:12px 5px;
     background-color:#07ce00;
     color: #fff;
     border:none;
@@ -49,9 +49,11 @@ width:300px;
     font-weight: 500;
     text-transform: uppercase;
     white-space: nowrap;
+    width: 80%;
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .text-banner-wrapper  a img {
     width: 7%;
@@ -261,7 +263,7 @@ object-fit: contain;
 }
 @media screen and (min-width:300px) {
     .text-banner-wrapper  a{    
-        font-size: 13px;
+        font-size: 12px;
         padding:14px 5px;  
     }
 
