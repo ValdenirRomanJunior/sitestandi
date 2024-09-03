@@ -45,10 +45,18 @@ width:300px;
     -webkit-box-shadow: 0 8px 16px 0 rgb(0 0 0 / 10%);
     box-shadow: 0 8px 16px 0 rgb(0 0 0 / 10%);
     border-radius: 5px;
-    margin-top: 25px;
+    margin-top: 15px;
     font-weight: 500;
     text-transform: uppercase;
     white-space: nowrap;
+
+    display: flex;
+    justify-content: center;
+}
+.text-banner-wrapper  a img {
+    width: 7%;
+    height: 7%;
+    margin-right: 5px;
 }
 .section-icons{
     border-top:1px solid rgb(217, 217, 217);
@@ -254,7 +262,7 @@ object-fit: contain;
 @media screen and (min-width:300px) {
     .text-banner-wrapper  a{    
         font-size: 13px;
-        padding:14px 17px;  
+        padding:14px 5px;  
     }
 
     h1{
@@ -307,7 +315,7 @@ object-fit: contain;
     }
     .text-banner-wrapper  a{    
         font-size: 13px;
-        padding:14px 17px;
+        padding:14px 10px;
       
     }
 }
@@ -537,6 +545,7 @@ object-fit: contain;
     }
     .text-banner-wrapper h1{
         text-align: left;
+       
     
     }
     .text-banner-wrapper p{
@@ -546,10 +555,17 @@ object-fit: contain;
         margin-left:0;
     }
     .text-banner-wrapper  a{
+        width: 80%;
         font-size: 15px;
-        padding:13px 15px;
+        padding:13px 5px;
         margin-top: 30px;
         border-radius: 2px;
+    }
+
+    .text-banner-wrapper  a img {
+        width: 5%;
+        height: 5%;
+        margin-right: 5px;
     }
     
 }
@@ -585,12 +601,12 @@ object-fit: contain;
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    width: 50%;
+    width: 48%;
     padding-left: 140px;
     }
     .text-banner-wrapper h1{
         text-align: left;
-        font-size: 2.6rem !important;
+        font-size: 2.5rem !important;
     
     }
     .text-banner-wrapper p{
