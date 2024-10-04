@@ -75,9 +75,10 @@ header{
     color:#008ace;
 }
 .nav .cta-menu a{
-    background-color: #008ace;
+    background-color: #565656;
     color: #fff;
     padding:10px 10px;
+    border-radius: 5px;
 }
 .show .nav{
    opacity:1;
@@ -152,8 +153,9 @@ header{
         margin-right: 0;
     }
     .nav{
-        width: 65%;
+        width: 60%;
         display: flex;
+        justify-content: space-between;
         height: 30px;
         position: relative;
         z-index: initial;
@@ -189,7 +191,7 @@ header{
             margin-right: 0;
         }
         .nav{
-            width: 65%;
+            width: 50%;
             display: flex;
             height: 30px;
             position: relative;
