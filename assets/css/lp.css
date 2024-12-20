@@ -1,0 +1,471 @@
+body{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #12027a;
+    
+}
+.bar{
+    width: 100%;
+    color: #12027a;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-family: "Open-Sans", sans-serif;
+    margin-top: 0;
+    position: absolute;
+    top:0;
+    
+   
+}
+.logo-wrapper{
+    width: 120px;
+    height: 60px;
+}
+.logo-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.main{
+    padding: 5%;
+    width: 90%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.banner-header-wrapper{
+    width: 100%;
+    height: 270px;
+}
+
+.banner-header-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+h1{
+font-family: "DM Sans", sans-serif;
+font-size: 1.6rem;
+margin:0;
+text-align: center;
+color: #fff;
+margin-top: 20px;
+margin-bottom: 10px;
+font-weight: 300;
+line-height: 2.4rem;
+}
+h2{
+    font-family: "Open-Sans", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.balao{
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    border-radius: 4px;
+}
+
+.balao p{
+    font-family: "Open-Sans", sans-serif;
+}
+
+.form-w{
+    margin-top: 10px;
+    padding: 5px;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button-whats{
+    background:#fff;
+    height:50px;
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 90%;
+    
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+ }
+.button-whats a{
+    width: 90%;
+    height: 60%;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+
+
+}
+
+ .button-whats .wrapper{
+    color:#fff;
+    background-color: rgba(191, 235, 214, 0.5);
+   border:  1px solid rgba(209, 213, 219, 0.3);
+   width: 100% !important;
+   height:100% !important;
+   border-radius: 5px;
+
+   
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   
+  
+ }
+ .button-whats .whats-image{
+    width:27px;
+    height: 27px;
+}
+ .button-whats .iniciar{
+   
+    width: 190px;
+    height: 25px;
+    
+    text-align: center;  
+    border-radius: 2px;
+    font-size: 18px;
+    font-family: Outfit, sans-serif;
+    font-weight: 300;
+    color: rgb(59, 186, 110);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+@media screen and (min-width:600px){
+    .main{
+        padding: 5%;
+        width: 70%;
+        height:70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+}
+@media screen and (min-width:920px){
+    .main{
+        padding: 5%;
+        width: 60%;
+        height:60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    h1{
+        font-family: "Open-Sans", sans-serif;
+        font-size: 1.9rem;
+        margin:0;
+        text-align: center;
+       
+        }
+        h2{
+            font-family: "Open-Sans", sans-serif;
+            font-size: 1.2rem;
+            text-align: center;
+           
+        }
+
+
+}
+
+@media screen and (min-width:1100px){
+    .main{
+        padding: 5%;
+        width: 60%;
+        height:60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .right-wrapper{
+        width: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    h1{
+        font-family: "Open-Sans", sans-serif;
+        font-size: 1.8rem;
+        margin:0;
+        text-align: center;
+      
+        }
+        h2{
+            font-family: "Open-Sans", sans-serif;
+            font-size: 1.1rem;
+            text-align: center;
+        
+        }
+      
+
+        .logo-wrapper{
+            width: 130px;
+            height: 50px;
+        }
+
+        .logo-wrapper img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        
+        }
+        .banner-header-wrapper{
+            width: 100%;
+            height: 340px;
+        }
+        
+        .banner-header-wrapper img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .button-container{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .button-whats{
+            background:#fff;
+            height:50px;
+            border-radius: 10px;
+            margin-top: 15px;
+            width: 90%;
+            
+        
+            display:flex;
+            align-items: center;
+            justify-content: center;
+           
+            
+         }
+        .button-whats a{
+            width: 90%;
+            height: 60%;
+        
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        
+        
+        
+        }
+        
+         .button-whats .wrapper{
+            color:#fff;
+            background-color: rgba(191, 235, 214, 0.5);
+           border:  1px solid rgba(209, 213, 219, 0.3);
+           width: 100% !important;
+           height:100% !important;
+           border-radius: 5px;
+        
+           
+        
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           align-items: center;
+           
+          
+         }
+         .button-whats .whats-image{
+            width:27px;
+            height: 27px;
+        }
+         .button-whats .iniciar{
+           
+            width: 190px;
+            height: 25px;
+            
+            text-align: center;  
+            border-radius: 2px;
+            font-size: 18px;
+            font-family: Outfit, sans-serif;
+            font-weight: 300;
+            color: rgb(59, 186, 110);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+         }
+     
+}
+
+
+@media screen and (min-width:1300px){
+    .main{
+        padding: 2%;
+        width: 60%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+
+
+    .right-wrapper{
+        margin-top: 10px;
+        width: 100%;
+
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+     
+
+    }
+
+    h1{
+        font-family: "Open-Sans", sans-serif;
+        font-size: 2rem;
+        margin:0;
+        text-align: center;
+        margin-top: 10px;
+        line-height: 3.4rem;
+      
+        }
+
+        h2{
+            font-family: "Open-Sans", sans-serif;
+            font-size: 1.2rem;
+            margin-top: 0.7rem;
+            text-align: center;
+        
+        }
+      
+
+        .logo-wrapper{
+            width: 130px;
+            height: 70px;
+        }
+        .logo-wrapper img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        
+        }
+        .banner-header-wrapper{
+            width: 70%;
+            height: 360px;
+           
+        }
+        
+        .banner-header-wrapper img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .button-container{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .button-whats{
+            background:#fff;
+            height:50px;
+            border-radius: 10px;
+            margin-top: 15px;
+            width: 90%;
+            
+        
+            display:flex;
+            align-items: center;
+            justify-content: center;
+           
+            
+         }
+        .button-whats a{
+            width: 90%;
+            height: 60%;
+        
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        
+        
+        
+        }
+        
+         .button-whats .wrapper{
+            color:#fff;
+            background-color: rgba(191, 235, 214, 0.5);
+           border:  1px solid rgba(209, 213, 219, 0.3);
+           width: 100% !important;
+           height:100% !important;
+           border-radius: 5px;
+        
+           
+        
+           display: flex;
+           flex-direction: row;
+           justify-content: space-around;
+           align-items: center;
+           
+          
+         }
+         .button-whats .whats-image{
+            width:27px;
+            height: 27px;
+        }
+         .button-whats .iniciar{
+           
+            width: 190px;
+            height: 25px;
+            
+            text-align: center;  
+            border-radius: 2px;
+            font-size: 18px;
+            font-family: Outfit, sans-serif;
+            font-weight: 300;
+            color: rgb(59, 186, 110);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        
+         }
+   
+}
+    
+
+    
