@@ -12,9 +12,9 @@ h1 {
 .h1-span{
     font-weight: 700;
     line-height: 1.12em !important;
-    font-size: 2rem !important;
+    font-size: 2.1rem !important;
     text-align: center !important;
-   
+    margin-top: 3px;
     font-family: var(--font-primary);
     background: linear-gradient(90deg, rgb(0, 111, 249) 0.07%, rgb(0, 146, 255) 34.34%, rgb(0, 196, 254) 68.61%, rgb(0, 206, 209) 102.88%) text;
     -webkit-text-fill-color: transparent;
@@ -420,5 +420,16 @@ h1 {
     .star-wrapper .fa-star {
         color: rgb(220, 207, 17);
     }
-
+    
+    .h1-span{
+        font-weight: 700;
+        line-height: 1.12em !important;
+        font-size: 3rem !important;
+        text-align: center !important;
+        margin-top: 3px;
+        font-family: var(--font-primary);
+        background: linear-gradient(90deg, rgb(0, 111, 249) 0.07%, rgb(0, 146, 255) 34.34%, rgb(0, 196, 254) 68.61%, rgb(0, 206, 209) 102.88%) text;
+        -webkit-text-fill-color: transparent;
+    
+    }
 }
