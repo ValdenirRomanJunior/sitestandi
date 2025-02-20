@@ -133,11 +133,11 @@ footer{
     .about h2{
         font-size: 1.2rem;
         font-weight: 500;
-        color: #484848;
+        color: #ffffff;
     }
     .about p{
         margin-top: 1rem;
-         color:#878787;
+         color:#ffffff;
          font-size: .9rem;
     }
     
@@ -151,7 +151,7 @@ footer{
         font-family: var(--font-primary);
     }
     .nav-footer h2{
-        color: #484848;
+        color: #ffffff;
         font-weight: 500;
         font-size: 1.2rem;
     }
@@ -160,7 +160,7 @@ footer{
       
     }
     .links-footer-wrapper ul{
-        color:#878787;
+        color:#ffffff;
     }
     .links-footer-wrapper ul{
         display: flex;
